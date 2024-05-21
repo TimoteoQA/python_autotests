@@ -17,12 +17,12 @@ json_add_pokeball = {
 }
 
 
-'''response_create = requests.post(url = f'{URL}pokemons', headers = HEADER, json = json_create)
-print(response_create.text)'''
+response_create = requests.post(url = f'{URL}pokemons', headers = HEADER, json = json_create)
+print(response_create.text)
 
-'''response_change = requests.put(url = f'{URL}pokemons', headers = HEADER, json = json_change)
-print(response_change.text)'''
+response_change = requests.put(url = f'{URL}pokemons', headers = HEADER, json = json_change)
+print(response_change.text)
 
-'''response_add_pokeball = requests.post(url = f'{URL}trainers/add_pokeball', headers = HEADER, json = json_add_pokeball)
-print(response_add_pokeball.text)'''
+response_add_pokeball = requests.post(url = f'{URL}trainers/add_pokeball', headers = HEADER, json = json_add_pokeball)
+print(response_add_pokeball.text)
 
